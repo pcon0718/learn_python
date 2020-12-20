@@ -19,6 +19,6 @@ print("Lets start fresh")
 cities = ['monterey', 'sydney', 'paris', 'new york', 'seattle']
 cities.sort()
 print(cities)
-cities.reverse()
+cities.sort(reverse=True)
 print(cities)
 
