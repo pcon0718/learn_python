@@ -1,0 +1,20 @@
+guest_list = ['bono', 'edge', 'adam', 'larry']
+guest_list.insert(0, 'flea')
+guest_list.insert(3, 'stevie')
+guest_list.append('sammy')
+
+guest1 = guest_list.pop(0)
+guest2 = guest_list.pop(0)
+guest3 = guest_list.pop(0)
+guest4 = guest_list.pop(0)
+guest5 = guest_list.pop(0)
+guest6 = guest_list.pop(0)
+guest7 = guest_list.pop(0)
+
+print(f"Hello {guest1.title()}. Welcome.")
+print(f"Hello {guest2.title()}. Welcome.")
+print(f"Hello {guest3.title()}. Welcome.")
+print(f"Hello {guest4.title()}. Welcome.")
+print(f"Hello {guest5.title()}. Welcome.")
+print(f"Hello {guest6.title()}. Welcome.")
+print(f"Hello {guest7.title()}. Welcome.")
